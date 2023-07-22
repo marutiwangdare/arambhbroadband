@@ -1643,7 +1643,7 @@
                 return true;
             }
         });
-    }); <
+    }); 
     !--end-- >
     </script>
     <script type="text/javascript">
