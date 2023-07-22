@@ -251,21 +251,23 @@
         border-radius: 400px;
         display: table;
         margin: 0 auto;
-        padding: 0px;
+        padding: 10px;
     }
 
     .round1>h3 {
-        font-size: 35px;
+        font-size: 26px;
         font-weight: 700;
         line-height: 15px;
         padding: 15px 15px 20px;
+        display: inline;
     }
 
     .round1>h4 {
-        font-size: 29px;
+        font-size: 26px;
         font-weight: 700;
         line-height: 15px;
         padding: 15px 15px 15px;
+        display: inline;
     }
 
     .price_month1 {
@@ -289,7 +291,27 @@
         .price-col-margin-top {
             margin-top: 10px;
         }
+        .testi_detail {
+            display: flex;
+            flex-direction: column;
+        }
+        .testi_img {
+            width: 100%;
+        }
+        .testi-text {
+            text-align: center;
+            float: unset;
+            width: 100%;
+        }
+
     }
+    .present {
+    text-align: "left";
+    }
+    .section_heading .bottom_head  h2::after {
+        content: "";
+    }
+    
     </style>
 </head>
 
@@ -303,7 +325,7 @@
                     </div>
                     <div class="col-md-12">
                         <div class="present">
-                            <h1 align="left" style="font-size:65px;"><b>Arambh Broadband </b></h1>
+                            <h1  style="/*font-size:65px;*/"><b>Arambh Broadband </b></h1>
                             <h1 style="margin-top:100px;" align="center">Uninterrupted And Unlimited Internet With
                                 Superfast Speed And
                                 <span style="font-size:60px;color:#f6b10e"><b>Service</b>.</span>
@@ -1084,8 +1106,8 @@
                 </div>
             </div>
             </br></br>
-            <div style="text-align: center;">
-                <h2 style="color: white;">Installation Charges : Rs. 2000</h2>
+            <div class="section_heading" >
+                <h2 style="color: white;border-bottom: unset;">Installation Charges : Rs. 2000</h2>
             </div>
 
         </div>
